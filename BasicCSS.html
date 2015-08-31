@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        h1 {
+            background-color: black;
+            padding: 20px;
+            color: white;
+        }
+        #list_con {
+            background-image:none;
+            color:red;
+            border: dotted;
+        }
+        .img_hov:hover .text {
+            opacity: 0.6;
+            text-align: justify;
+            color: #000000;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: "Times New Roman", Arial,Tahoma;
+            padding: 30px;
+        }
+
+        .text {
+            font-size:medium;
+            align-content:center;
+            width :470px;
+            background: #FFF;
+            opacity: 0;
+        }
+        table, th, td {
+            align-items:center;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+     <h1>1. Basic CSS</h1>
+       <div>
+           <p>Create a static webpage in technicolor with the following style properties:</p>
+           <p>font family                                                                </p>
+           <p>font sizes                                                                 </p>
+           <p>background color or image                                                  </p>
+           <p>border style                                                               </p>
+           <p>table styles                                                               </p>
+           <p>list style                                                                 </p>
+           <p>anchor link styles (hover, etc)                                            </p>
+           <p></p>text align                                                             </p>
+       </div>
+
+    <div class="img_hov">
+        <img src="logo_telu.jpg" alt="logo" align="top" width="40%" height="40%">
+        <div class="text">
+            Telkom University
+        </div>
+    </div>
+   
+    <div id="list_con">
+        <ol type="1">
+            <li>Ketuhanan Yang Maha Esa</li>
+            <li>Kemanusian yang adil dan beradab</li>
+            <li>Persatuan Indonesia</li>
+        </ol>
+    </div>
+    <div>
+        <table align:"center">
+            <tr>
+                <th>Program Studi</th>
+                <th>Jumlah Mahasiswa</th>
+            </tr>
+            <tr>
+                <td align="center">Administrasi Bisnis</td>
+                <td align="left">120</td>
+            </tr>
+            <tr>
+                <td align="center">DKV</td>
+                <td align="left">60</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
